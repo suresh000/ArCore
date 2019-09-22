@@ -3,10 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.bjmasc.arcore">
 
-    <uses-feature android:name="android.hardware.camera.ar" />
-
-    <uses-permission android:name="android.permission.CAMERA" />
-
     <application
         android:name=".AppController"
         android:allowBackup="false"
@@ -24,15 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".augmented.AugmentedImagesActivity" />
         <activity android:name=".hello.HelloArActivity" />
         <activity android:name=".cloud.CloudAnchorsActivity" />
+        <activity android:name=".runtime.ShapesDuringRuntimeActivity" />
+
         <meta-data
             android:name="com.google.ar.core"
             android:value="required" />
-        <meta-data android:name="com.google.android.ar.API_KEY"
-            android:value="AIzaSyBYgGvsranwdX9RFkFXiMIBUpSg3baBL0I" /> <!-- Add your key -->
+        <meta-data
+            android:name="com.google.android.ar.API_KEY"
+            android:value="AIzaSyBYgGvsranwdX9RFkFXiMIBUpSg3baBL0I" />
     </application>
+
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>

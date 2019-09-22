@@ -24,4 +24,8 @@ public class DashboardViewModel {
     public void cloudAnchorsClick(View view) {
         AppNavigator.navigateToCloudAnchorsActivity(mContext);
     }
+
+    public void shapesDuringRuntimeClick(View view) {
+        AppNavigator.navigateToShapesDuringRuntimeActivity(mContext);
+    }
 }

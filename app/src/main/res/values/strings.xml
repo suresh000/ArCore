@@ -4,4 +4,8 @@
     <string name="augmented_images">Augmented Images</string>
     <string name="cloud_anchors">Cloud Anchors</string>
     <string name="resolve">Resolve</string>
+    <string name="shapes_during_runtime">3D Shapes During Runtime</string>
+    <string name="cube">Cube</string>
+    <string name="sphere">Sphere</string>
+    <string name="cylinder">Cylinder</string>
 </resources>
