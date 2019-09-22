@@ -20,4 +20,8 @@ public class DashboardViewModel {
     public void augmentedImagesClick(View view) {
         AppNavigator.navigateToAugmentedImagesActivity(mContext);
     }
+
+    public void cloudAnchorsClick(View view) {
+        AppNavigator.navigateToCloudAnchorsActivity(mContext);
+    }
 }

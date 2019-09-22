@@ -17,10 +17,6 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
-
         <activity android:name=".dashboard.DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +27,12 @@
 
         <activity android:name=".augmented.AugmentedImagesActivity" />
         <activity android:name=".hello.HelloArActivity" />
+        <activity android:name=".cloud.CloudAnchorsActivity" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+        <meta-data android:name="com.google.android.ar.API_KEY"
+            android:value="AIzaSyBYgGvsranwdX9RFkFXiMIBUpSg3baBL0I" /> <!-- Add your key -->
     </application>
 
 </manifest>
