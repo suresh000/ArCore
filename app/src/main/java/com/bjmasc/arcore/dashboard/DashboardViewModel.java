@@ -28,4 +28,8 @@ public class DashboardViewModel {
     public void shapesDuringRuntimeClick(View view) {
         AppNavigator.navigateToShapesDuringRuntimeActivity(mContext);
     }
+
+    public void loadShapesDuringRuntimeClick(View view) {
+        AppNavigator.navigateToLoadShapesDuringRuntimeActivity(mContext);
+    }
 }

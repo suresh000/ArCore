@@ -10,6 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
@@ -24,6 +25,7 @@
         <activity android:name=".hello.HelloArActivity" />
         <activity android:name=".cloud.CloudAnchorsActivity" />
         <activity android:name=".runtime.ShapesDuringRuntimeActivity" />
+        <activity android:name=".load.LoadShapesDuringRuntimeActivity" />
 
         <meta-data
             android:name="com.google.ar.core"
@@ -34,7 +36,7 @@
     </application>
 
     <uses-feature android:name="android.hardware.camera.ar" />
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>

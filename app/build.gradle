@@ -38,6 +38,8 @@ dependencies {
     implementation project(path: ':sharedcode')
 
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.12.0'
+    // load 3d shapes during runtime
+    implementation group: 'com.google.ar.sceneform', name: 'assets', version: '1.12.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

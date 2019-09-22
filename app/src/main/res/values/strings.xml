@@ -8,4 +8,5 @@
     <string name="cube">Cube</string>
     <string name="sphere">Sphere</string>
     <string name="cylinder">Cylinder</string>
+    <string name="load_models_during_the_runtime">Load 3D Models During Runtime</string>
 </resources>

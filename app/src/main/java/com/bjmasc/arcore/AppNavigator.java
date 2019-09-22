@@ -6,6 +6,7 @@ import android.content.Intent;
 import com.bjmasc.arcore.augmented.AugmentedImagesActivity;
 import com.bjmasc.arcore.cloud.CloudAnchorsActivity;
 import com.bjmasc.arcore.hello.HelloArActivity;
+import com.bjmasc.arcore.load.LoadShapesDuringRuntimeActivity;
 import com.bjmasc.arcore.runtime.ShapesDuringRuntimeActivity;
 
 public final class AppNavigator {
@@ -29,6 +30,11 @@ public final class AppNavigator {
 
     public static void navigateToShapesDuringRuntimeActivity(Context context) {
         Intent intent = new Intent(context, ShapesDuringRuntimeActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void navigateToLoadShapesDuringRuntimeActivity(Context context) {
+        Intent intent = new Intent(context, LoadShapesDuringRuntimeActivity.class);
         context.startActivity(intent);
     }
 }
