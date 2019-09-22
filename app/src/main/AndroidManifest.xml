@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.bjmasc.arcore">
 
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:name=".AppController"
         android:allowBackup="false"
@@ -12,7 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".hello.HelloArActivity"></activity>
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
 
         <activity android:name=".dashboard.DashboardActivity">
             <intent-filter>
@@ -22,13 +29,8 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
+        <activity android:name=".augmented.AugmentedImagesActivity" />
+        <activity android:name=".hello.HelloArActivity" />
     </application>
-
-    <uses-feature android:name="android.hardware.camera.ar" />
-
-    <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>

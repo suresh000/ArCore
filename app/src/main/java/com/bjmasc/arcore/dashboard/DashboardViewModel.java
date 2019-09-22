@@ -16,4 +16,8 @@ public class DashboardViewModel {
     public void helloArClick(View view) {
         AppNavigator.navigateToHelloArActivity(mContext);
     }
+
+    public void augmentedImagesClick(View view) {
+        AppNavigator.navigateToAugmentedImagesActivity(mContext);
+    }
 }

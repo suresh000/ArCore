@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ArCore</string>
     <string name="hello_ar">Hello AR</string>
+    <string name="augmented_images">Augmented Images</string>
 </resources>
