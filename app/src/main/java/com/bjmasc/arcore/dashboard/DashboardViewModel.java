@@ -36,4 +36,8 @@ public class DashboardViewModel {
     public void playVideoClick(View view) {
         AppNavigator.navigateToPlayVideoActivity(mContext);
     }
+
+    public void viewRenderableClick(View view) {
+        AppNavigator.navigateToViewRenderableActivity(mContext);
+    }
 }

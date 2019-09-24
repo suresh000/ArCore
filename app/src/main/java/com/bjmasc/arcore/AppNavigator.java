@@ -9,6 +9,7 @@ import com.bjmasc.arcore.hello.HelloArActivity;
 import com.bjmasc.arcore.load.LoadShapesDuringRuntimeActivity;
 import com.bjmasc.arcore.play.PlayVideoActivity;
 import com.bjmasc.arcore.runtime.ShapesDuringRuntimeActivity;
+import com.bjmasc.arcore.view.ViewRenderableActivity;
 
 public final class AppNavigator {
 
@@ -41,6 +42,11 @@ public final class AppNavigator {
 
     public static void navigateToPlayVideoActivity(Context context) {
         Intent intent = new Intent(context, PlayVideoActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void navigateToViewRenderableActivity(Context context) {
+        Intent intent = new Intent(context, ViewRenderableActivity.class);
         context.startActivity(intent);
     }
 }
