@@ -40,4 +40,8 @@ public class DashboardViewModel {
     public void viewRenderableClick(View view) {
         AppNavigator.navigateToViewRenderableActivity(mContext);
     }
+
+    public void modelAnimationClick(View view) {
+        AppNavigator.navigateToModelAnimationActivity(mContext);
+    }
 }

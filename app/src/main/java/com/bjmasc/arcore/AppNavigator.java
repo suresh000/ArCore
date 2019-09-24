@@ -3,6 +3,7 @@ package com.bjmasc.arcore;
 import android.content.Context;
 import android.content.Intent;
 
+import com.bjmasc.arcore.animation.ModelAnimationActivity;
 import com.bjmasc.arcore.augmented.AugmentedImagesActivity;
 import com.bjmasc.arcore.cloud.CloudAnchorsActivity;
 import com.bjmasc.arcore.hello.HelloArActivity;
@@ -47,6 +48,11 @@ public final class AppNavigator {
 
     public static void navigateToViewRenderableActivity(Context context) {
         Intent intent = new Intent(context, ViewRenderableActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void navigateToModelAnimationActivity(Context context) {
+        Intent intent = new Intent(context, ModelAnimationActivity.class);
         context.startActivity(intent);
     }
 }

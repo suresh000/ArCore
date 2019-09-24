@@ -11,4 +11,6 @@
     <string name="load_models_during_the_runtime">Load 3D Models During Runtime</string>
     <string name="play_video_in_ar_scene">Play Video in AR Scene</string>
     <string name="viewrenderable">ViewRenderable</string>
+    <string name="model_animation">Model Animation</string>
+    <string name="animate">Animate</string>
 </resources>

@@ -40,6 +40,8 @@ dependencies {
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.12.0'
     // load 3d shapes during runtime
     implementation group: 'com.google.ar.sceneform', name: 'assets', version: '1.12.0'
+    // Support for animated model renderables
+    implementation "com.google.ar.sceneform:animation:1.12.0"
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
@@ -51,3 +53,8 @@ sceneform.asset('sampledata/ArcticFox_Posed.obj',
         'default',
         'sampledata/ArcticFox_Posed.sfa',
         'src/main/assets/ArcticFox_Posed')
+
+sceneform.asset('sampledata/skeletal/58_Movement_LODa_r01.fbx',
+        'default',
+        'sampledata/skeletal/58_Movement_LODa_r01.sfa',
+        'src/main/assets/skeletal')
