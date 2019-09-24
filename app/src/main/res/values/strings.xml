@@ -13,4 +13,5 @@
     <string name="viewrenderable">ViewRenderable</string>
     <string name="model_animation">Model Animation</string>
     <string name="animate">Animate</string>
+    <string name="create_anchors_on_auto_detected_planes">Create Anchors On Auto Detected Planes</string>
 </resources>

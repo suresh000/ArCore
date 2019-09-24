@@ -44,4 +44,8 @@ public class DashboardViewModel {
     public void modelAnimationClick(View view) {
         AppNavigator.navigateToModelAnimationActivity(mContext);
     }
+
+    public void autoPlanesClick(View view) {
+        AppNavigator.navigateToAutoPlanesActivity(mContext);
+    }
 }

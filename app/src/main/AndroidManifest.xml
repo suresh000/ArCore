@@ -29,6 +29,7 @@
         <activity android:name=".play.PlayVideoActivity" />
         <activity android:name=".view.ViewRenderableActivity" />
         <activity android:name=".animation.ModelAnimationActivity" />
+        <activity android:name=".automatically.AutoPlanesActivity" />
 
         <meta-data
             android:name="com.google.ar.core"
@@ -39,8 +40,8 @@
     </application>
 
     <uses-feature android:name="android.hardware.camera.ar" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>
