@@ -32,4 +32,8 @@ public class DashboardViewModel {
     public void loadShapesDuringRuntimeClick(View view) {
         AppNavigator.navigateToLoadShapesDuringRuntimeActivity(mContext);
     }
+
+    public void playVideoClick(View view) {
+        AppNavigator.navigateToPlayVideoActivity(mContext);
+    }
 }

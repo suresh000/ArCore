@@ -7,6 +7,7 @@ import com.bjmasc.arcore.augmented.AugmentedImagesActivity;
 import com.bjmasc.arcore.cloud.CloudAnchorsActivity;
 import com.bjmasc.arcore.hello.HelloArActivity;
 import com.bjmasc.arcore.load.LoadShapesDuringRuntimeActivity;
+import com.bjmasc.arcore.play.PlayVideoActivity;
 import com.bjmasc.arcore.runtime.ShapesDuringRuntimeActivity;
 
 public final class AppNavigator {
@@ -35,6 +36,11 @@ public final class AppNavigator {
 
     public static void navigateToLoadShapesDuringRuntimeActivity(Context context) {
         Intent intent = new Intent(context, LoadShapesDuringRuntimeActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void navigateToPlayVideoActivity(Context context) {
+        Intent intent = new Intent(context, PlayVideoActivity.class);
         context.startActivity(intent);
     }
 }
