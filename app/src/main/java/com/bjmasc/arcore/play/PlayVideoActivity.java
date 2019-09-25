@@ -27,7 +27,7 @@ public class PlayVideoActivity extends BaseActivity {
 
         ExternalTexture texture = new ExternalTexture();
 
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.video);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.lion_chroma);
         mediaPlayer.setSurface(texture.getSurface());
         mediaPlayer.setLooping(true);
 

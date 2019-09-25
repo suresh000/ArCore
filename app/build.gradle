@@ -69,3 +69,8 @@ sceneform.asset('sampledata/foxface/fox_face.fbx',
         'default',
         'sampledata/foxface/fox_face.sfa',
         'src/main/res/raw/fox_face')
+
+sceneform.asset('sampledata/videoscreen/chroma_key_video.obj',
+        'default',
+        'sampledata/videoscreen/chroma_key_video.sfa',
+        'src/main/res/raw/video_screen')
