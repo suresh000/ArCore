@@ -64,3 +64,8 @@ sceneform.asset('sampledata/andydance/andy_dance.fbx',
         'default',
         'sampledata/andydance/andy_dance.sfa',
         'src/main/assets/andy_dance')
+
+sceneform.asset('sampledata/foxface/fox_face.fbx',
+        'default',
+        'sampledata/foxface/fox_face.sfa',
+        'src/main/res/raw/fox_face')
