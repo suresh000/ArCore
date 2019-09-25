@@ -136,6 +136,16 @@
                     android:textColor="@android:color/white"
                     android:textAllCaps="false"/>
 
+                <com.bjmasc.sharedcode.widgets.CustomButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="@string/augmented_faces"
+                    android:onClick="@{vm::augmentedFacesClick}"
+                    app:text_font="Roboto_Medium"
+                    android:textColor="@android:color/white"
+                    android:textAllCaps="false"/>
+
             </LinearLayout>
 
         </androidx.core.widget.NestedScrollView>

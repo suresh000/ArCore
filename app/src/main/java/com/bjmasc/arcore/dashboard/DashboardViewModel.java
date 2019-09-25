@@ -48,4 +48,8 @@ public class DashboardViewModel {
     public void autoPlanesClick(View view) {
         AppNavigator.navigateToAutoPlanesActivity(mContext);
     }
+
+    public void augmentedFacesClick(View view) {
+        AppNavigator.navigateToAugmentedFacesActivity(mContext);
+    }
 }

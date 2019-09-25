@@ -5,6 +5,7 @@ import android.content.Intent;
 
 import com.bjmasc.arcore.animation.ModelAnimationActivity;
 import com.bjmasc.arcore.augmented.AugmentedImagesActivity;
+import com.bjmasc.arcore.augmented.faces.AugmentedFacesActivity;
 import com.bjmasc.arcore.automatically.AutoPlanesActivity;
 import com.bjmasc.arcore.cloud.CloudAnchorsActivity;
 import com.bjmasc.arcore.hello.HelloArActivity;
@@ -59,6 +60,11 @@ public final class AppNavigator {
 
     public static void navigateToAutoPlanesActivity(Context context) {
         Intent intent = new Intent(context, AutoPlanesActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void navigateToAugmentedFacesActivity(Context context) {
+        Intent intent = new Intent(context, AugmentedFacesActivity.class);
         context.startActivity(intent);
     }
 }
