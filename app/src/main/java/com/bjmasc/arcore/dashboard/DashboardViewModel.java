@@ -52,4 +52,8 @@ public class DashboardViewModel {
     public void augmentedFacesClick(View view) {
         AppNavigator.navigateToAugmentedFacesActivity(mContext);
     }
+
+    public void andyDanceAnimationClick(View view) {
+        AppNavigator.navigateToAndyDanceActivity(mContext);
+    }
 }

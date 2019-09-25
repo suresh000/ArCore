@@ -58,3 +58,9 @@ sceneform.asset('sampledata/skeletal/58_Movement_LODa_r01.fbx',
         'default',
         'sampledata/skeletal/58_Movement_LODa_r01.sfa',
         'src/main/assets/skeletal')
+
+
+sceneform.asset('sampledata/andydance/andy_dance.fbx',
+        'default',
+        'sampledata/andydance/andy_dance.sfa',
+        'src/main/assets/andy_dance')

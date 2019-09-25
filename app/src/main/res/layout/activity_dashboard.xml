@@ -130,6 +130,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/colorAccent"
+                    android:text="@string/andy_dance_animation"
+                    android:onClick="@{vm::andyDanceAnimationClick}"
+                    app:text_font="Roboto_Medium"
+                    android:textColor="@android:color/white"
+                    android:textAllCaps="false"/>
+
+                <com.bjmasc.sharedcode.widgets.CustomButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
                     android:text="@string/create_anchors_on_auto_detected_planes"
                     android:onClick="@{vm::autoPlanesClick}"
                     app:text_font="Roboto_Medium"
