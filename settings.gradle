@@ -1,2 +1,2 @@
-include ':app', ':sharedcode'
+include ':app', ':sharedcode', ':solarsystem'
 rootProject.name='ArCore'
